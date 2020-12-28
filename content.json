@@ -1,0 +1,25 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyBrown Cow",
+      "FromFile": "assets/BabyBrown Cow.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyWhite Cow",
+      "FromFile": "assets/BabyWhite Cow.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Brown Cow",
+      "FromFile": "assets/Brown Cow.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/White Cow",
+      "FromFile": "assets/White Cow.png"
+    }
+  ]
+}
