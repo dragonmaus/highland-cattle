@@ -20,6 +20,14 @@
       "Action": "Load",
       "Target": "Animals/White Cow",
       "FromFile": "assets/White Cow.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/ShopIcon.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+      "ToArea": { "X": 32, "Y": 448, "Width": 32, "Height": 16 },
+      "PatchMode": "Replace"
     }
   ]
 }
