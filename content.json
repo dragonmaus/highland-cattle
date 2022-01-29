@@ -1,25 +1,45 @@
 {
   "Format": "1.19.0",
+  "ConfigSchema": {
+    "EnabledCattle": {
+      "AllowValues": "Brown, White",
+      "AllowMultiple": "true",
+      "Default": "Brown, White",
+      "Description": "Cattle variants to enable"
+    }
+  },
   "Changes": [
     {
       "Action": "Load",
       "Target": "Animals/BabyBrown Cow",
-      "FromFile": "assets/BabyBrown Cow.png"
+      "FromFile": "assets/BabyBrown Cow.png",
+      "When": {
+        "EnabledCattle": "Brown"
+      }
     },
     {
       "Action": "Load",
       "Target": "Animals/BabyWhite Cow",
-      "FromFile": "assets/BabyWhite Cow.png"
+      "FromFile": "assets/BabyWhite Cow.png",
+      "When": {
+        "EnabledCattle": "White"
+      }
     },
     {
       "Action": "Load",
       "Target": "Animals/Brown Cow",
-      "FromFile": "assets/Brown Cow.png"
+      "FromFile": "assets/Brown Cow.png",
+      "When": {
+        "EnabledCattle": "Brown"
+      }
     },
     {
       "Action": "Load",
       "Target": "Animals/White Cow",
-      "FromFile": "assets/White Cow.png"
+      "FromFile": "assets/White Cow.png",
+      "When": {
+        "EnabledCattle": "White"
+      }
     },
     {
       "Action": "EditImage",
